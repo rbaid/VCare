@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/ColorPrimary</item>
+        @TargetApi 21
+        <item name="android:elevation">10dp</item>
+    </style>
+</resources>

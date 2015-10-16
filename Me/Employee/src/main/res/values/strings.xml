@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Me</string>
+    <string name="query_1">So, What did you do Today?</string>
+    <string name="query_2">How was your day?</string>
+    <string name="query_3">These made me happy.</string>
+    <string name="query_4">Devil(s) that made things difficult.</string>
+    <string name="query_5">Today I missed</string>
+
+    <string name="analysis_advice">*"All statistics have outliers."</string>
+    <string name="analysis_rating">A. Days distribution by Rating to help you assess your life.</string>
+    <string name="analysis_happy">B. These made you happy:</string>
+    <string name="analysis_sad">C. These made your life difficult! </string>
+    <string name="analysis_remember">D. You miss these a lot...</string>
+
+    <string name="action_settings">About</string>
+
+</resources>

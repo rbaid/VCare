@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/ColorPrimary</item>
+        <item name="android:displayOptions">showHome|useLogo</item>
+
+    </style>
+
+
+    <style name="RadioButtonDesign" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffe9d7ff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+
+    <style name="QuestionDesign" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ff0c0406</item>
+        <item name="android:textSize">20sp</item>
+        <!--<item name="android:textStyle">bold|italic</item>-->
+    </style>
+
+    <style name="SubmitButtonDesign" parent="android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--<item name="android:background">@color/ripple_material_dark</item>-->
+
+    </style>
+
+    <style name="AnalysisTextDesign" parent="android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ff0c0406</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+
+    </style>
+
+    <style name="AnalysisReportView" parent="android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ff0c0406</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

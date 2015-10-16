@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="#ff1976d2">
+        <TextView
+            android:id="@+id/v1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Stats for thoughts.*"
+            android:textColor="#FFE9D7FF"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="13dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        style="@style/AnalysisTextDesign"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp"
+            android:textColor="#ff1976d2"
+            android:text="@string/analysis_rating"/>
+     </LinearLayout>
+        <!--android:textStyle="bold"-->
+         <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart1"
+            android:layout_width="wrap_content"
+            android:layout_height="350dp" />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+             style="@style/AnalysisTextDesign"
+             android:textSize="12sp"
+             android:textColor="#ffff2f46"
+             android:gravity="right"
+             android:text="@string/analysis_advice"/>
+
+            <LinearLayout
+                style="@style/AnalysisTextDesign"
+                android:orientation="vertical"
+                android:id="@+id/AnalysisHappy">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20sp"
+                    android:textColor="#ff1976d2"
+                    android:text="@string/analysis_happy"/>
+            </LinearLayout>
+            <!--android:textStyle="bold"-->
+
+            <LinearLayout
+                style="@style/AnalysisTextDesign"
+                android:orientation="vertical"
+                android:id="@+id/AnalysisSad">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20sp"
+                    android:textColor="#ff1976d2"
+                    android:text="@string/analysis_sad" />
+            </LinearLayout>
+            <!--android:textStyle="bold"-->
+            <LinearLayout
+                style="@style/AnalysisTextDesign"
+                android:orientation="vertical"
+                android:id="@+id/AnalysisRemember">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textSize="20sp"
+                    android:textColor="#ff1976d2"
+                    android:text="@string/analysis_remember"/>
+            </LinearLayout>
+            <!--android:textStyle="bold"-->
+            <LinearLayout
+                style="@style/AnalysisTextDesign"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textColor="#ff1976d2"
+                android:text=" We hope you enjoyed the pies we served you :) "/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+ </LinearLayout>
+
+</ScrollView>
